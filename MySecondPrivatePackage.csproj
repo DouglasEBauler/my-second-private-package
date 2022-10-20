@@ -6,7 +6,7 @@
 		<Nullable>enable</Nullable>
 
 		<PackageId>MySecondPrivatePackageDouglasEBauler</PackageId>
-		<Version>1.0.0</Version>
+		<Version>1.0.1</Version>
 		<Authors>Douglas E Bauler</Authors>
 		<PackageDescription>Meu segundo pacote de exemplo</PackageDescription>
 		<RepositoryUrl>https://github.com/DouglasEBauler/my-second-private-package</RepositoryUrl>

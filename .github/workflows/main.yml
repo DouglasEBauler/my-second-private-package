@@ -17,6 +17,9 @@ jobs:
       with:
         dotnet-version: '6.0.x'
 
+    - name: Add GitHub Packages Source
+      run: dotnet nuget add source https://nuget.pkg.github.com/DouglasEBauler/index.json -n github -u DouglasEBauler -p ${{secrets.GITHUB_TOKEN}} --store-password-in-clear-text
+
     - name: Build with dotnet
       run: dotnet build --configuration Release
 
